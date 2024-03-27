@@ -11,5 +11,9 @@ message Message {
 
 service MessagingService {
   rpc SendMessage(Message) returns (Message);
-  rpc GetMessagesForUser(string) returns (stream Message);
+  rpc GetMessagesForUser(GetMessagesRequest) returns (stream Message);
+}
+
+message GetMessagesRequest {
+  string username = 1;
 }

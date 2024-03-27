@@ -1,4 +1,4 @@
-package gRPC.gRPC.src.main.java.igl3;
+package igl3;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
