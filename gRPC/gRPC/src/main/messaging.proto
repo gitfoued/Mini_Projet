@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package messaging;
+
+message Message {
+  string id = 1;
+  string sender = 2;
+  string recipient = 3;
+  string text = 4;
+}
+
+service MessagingService {
+  rpc SendMessage(Message) returns (Message);
+  rpc GetMessagesForUser(string) returns (stream Message);
+}
