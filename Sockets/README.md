@@ -10,8 +10,7 @@ Ce service de chat permet aux utilisateurs d'envoyer des messages texte à un sa
 
 ### Étapes de déploiement
 1. **Cloner le dépôt :** Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
-    
-
+    git clone https://git@github.com:gitfoued/Mini_Projet.git
 2. **Importer le projet (facultatif) :** Si vous utilisez un IDE comme IntelliJ IDEA ou Eclipse, importez le projet dans votre IDE en sélectionnant le dossier du projet cloné.
 
 3. **Compiler le code :** Compilez le code en exécutant les commandes suivantes à la racine du projet :
