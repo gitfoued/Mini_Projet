@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "igl3";
+option java_outer_classname = "MessagingClientProto";
+option objc_class_prefix = "HLW";
+
+package messaging;
+
+service MessagingClient {
+  rpc SendMessage(Message) returns (Message) {}
+
+  rpc GetMessagesForUser(GetMessagesRequest) returns (stream Message) {}
+}
+
+message Message {
+  string id = 1;
+  string sender = 2;
+  string recipient = 3;
+  string text = 4;
+}
+
+message GetMessagesRequest {
+  string username = 1;
+}
