@@ -16,7 +16,7 @@ Ce service Java RMI permet de gérer une liste de tâches en offrant les fonctio
 
 1. **Cloner le dépôt :** Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
     ```bash
-    
+  git clone https://git@github.com:gitfoued/Mini_Projet.git
     ```
 
 2. **Compilation du code :** Compilez les fichiers source Java en exécutant les commandes suivantes à la racine du projet :
